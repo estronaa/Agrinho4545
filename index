@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+  </head>
+  <body>
+<header>
+    <div>
+        <h1>Agro Forte, Futuro Sustentável</h1>
+        <p>
+            Produzir alimentos, preservar recursos naturais e garantir qualidade
+            de vida para as próximas gerações é o caminho para um futuro equilibrado.
+        </p>
+        <button class="btn" onclick="mostrarMensagem()">
+            Saiba Mais
+        </button>
+    </div>
+</header>
+
+<section>
+    <h2 class="titulo">Produção e Sustentabilidade</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399" alt="">
+            <div class="card-content">
+                <h3>Agricultura Sustentável</h3>
+                <p>
+                    Técnicas modernas aumentam a produtividade sem comprometer
+                    a saúde do solo e dos ecossistemas.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="">
+            <div class="card-content">
+                <h3>Preservação Ambiental</h3>
+                <p>
+                    O reflorestamento e a proteção das nascentes garantem recursos
+                    naturais para o futuro.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="">
+            <div class="card-content">
+                <h3>Energia Renovável</h3>
+                <p>
+                    Fontes limpas ajudam o campo a crescer de forma eficiente
+                    e responsável.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="banner-gif">
+    <h2 class="titulo">Tecnologia no Campo</h2>
+
+    <img src="https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif"
+         alt="Tecnologia agrícola">
+
+    <p style="margin-top:20px; max-width:800px; margin-left:auto; margin-right:auto;">
+        O uso de drones, sensores e inteligência de dados permite produzir mais,
+        reduzindo desperdícios e impactos ambientais.
+    </p>
+</section>
+
+<section>
+    <div class="info">
+
+        <img src="https://images.unsplash.com/photo-1592982537447-7440770cbfc9"
+             alt="Campo sustentável">
+
+        <div class="info-texto">
+            <h2>Equilíbrio entre Produção e Meio Ambiente</h2>
+
+            <p>
+                O agronegócio moderno busca integrar inovação, conservação dos
+                recursos naturais e eficiência produtiva.
+            </p>
+
+            <br>
+
+            <p>
+                A adoção de práticas sustentáveis fortalece a economia rural,
+                protege a biodiversidade e contribui para a segurança alimentar.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contador">
+    <h2>Árvores Preservadas (Simulação)</h2>
+    <div class="numero" id="contador">0</div>
+</section>
+
+<footer>
+    <p>
+        Agro Forte, Futuro Sustentável • Produção com responsabilidade ambiental
+    </p>
+</footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
